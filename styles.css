@@ -483,19 +483,25 @@ h3 {
 
 @media (max-width: 620px) {
   .site-header {
+    width: min(300px, calc(100vw - 40px));
     flex-direction: column;
-    gap: 18px;
+    align-items: stretch;
+    gap: 14px;
+    margin-inline: auto;
+    padding-inline: 0;
   }
 
   .brand {
-    width: min(280px, 76vw);
+    width: 100%;
   }
 
   .nav-links {
     width: 100%;
-    justify-content: flex-start;
-    overflow-x: auto;
+    justify-content: space-between;
+    gap: 8px;
+    overflow-x: visible;
     padding-bottom: 2px;
+    font-size: clamp(0.72rem, 2.7vw, 0.84rem);
   }
 
   .hero {
@@ -508,8 +514,8 @@ h3 {
   }
 
   h1 {
-    font-size: clamp(2.45rem, 13.2vw, 3.85rem);
-    line-height: 1.09;
+    font-size: clamp(2.24rem, 11.7vw, 3.28rem);
+    line-height: 1.11;
   }
 
   h2 {
@@ -517,7 +523,7 @@ h3 {
   }
 
   .hero-lede {
-    font-size: clamp(1.45rem, 8vw, 2.15rem);
+    font-size: clamp(1.32rem, 6.8vw, 1.9rem);
   }
 
   .package-topline {
