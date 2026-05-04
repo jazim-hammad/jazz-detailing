@@ -3,108 +3,189 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jazz Detailing</title>
+    <title>Jazz's Detailing</title>
     <meta
       name="description"
-      content="Jazz Detailing provides premium mobile auto detailing, paint care, and interior refresh services."
+      content="Jazz's Detailing provides mobile auto detailing, paint care, and interior refresh services in Staten Island, NY."
     >
+    <link rel="icon" href="assets/favicon.png" type="image/png">
     <link rel="preconnect" href="https://images.unsplash.com">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header class="site-header" aria-label="Main navigation">
-      <a class="brand" href="#top" aria-label="Jazz Detailing home">
-        <span class="brand-mark">JD</span>
-        <span>Jazz Detailing</span>
-      </a>
-      <nav class="nav-links" aria-label="Page sections">
-        <a href="#services">Services</a>
-        <a href="#work">Work</a>
-        <a href="#booking">Book</a>
-      </nav>
-    </header>
-
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Mobile auto detailing</p>
-          <h1 id="hero-title">Jazz Detailing</h1>
-          <p class="hero-lede">
-            Clean paint, restored interiors, and a finish that makes your vehicle feel new again.
-          </p>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button button-primary" href="#booking">Book a detail</a>
-            <a class="button button-secondary" href="#services">View services</a>
+        <header class="site-header" aria-label="Main navigation">
+          <a class="brand" href="#top" aria-label="Jazz Detailing home">
+            <img src="assets/logo-wide.png" alt="Jazz's Detailing">
+          </a>
+          <nav class="nav-links" aria-label="Page sections">
+            <a href="#top" aria-current="page">Home</a>
+            <a href="#services">Pricing</a>
+            <a href="#addons">Add-ons</a>
+            <a href="#booking">Book</a>
+          </nav>
+        </header>
+
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Staten Island, NY</p>
+            <h1 id="hero-title">Premium Auto Detailing in Staten Island</h1>
+            <p class="hero-lede">Cleaner. Shinier. Protected.</p>
+          </div>
+          <div class="hero-cta">
+            <a href="#services">View pricing</a>
           </div>
         </div>
-        <figure class="hero-media">
-          <img
-            src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=1300&q=80"
-            alt="Freshly detailed black sports car in a clean garage"
-          >
-        </figure>
+        <div class="hero-wave" aria-hidden="true"></div>
       </section>
 
-      <section class="intro-band" aria-label="Highlights">
-        <div>
-          <span class="metric">01</span>
-          <p>Careful wash, decontamination, and paint-safe drying.</p>
-        </div>
-        <div>
-          <span class="metric">02</span>
-          <p>Deep interior vacuuming, wipe-downs, and stain attention.</p>
-        </div>
-        <div>
-          <span class="metric">03</span>
-          <p>Finishing touches for trim, glass, wheels, and tires.</p>
-        </div>
-      </section>
-
-      <section class="section" id="services" aria-labelledby="services-title">
+      <section class="section pricing-section" id="services" aria-labelledby="services-title">
         <div class="section-heading">
-          <p class="eyebrow">Services</p>
-          <h2 id="services-title">Detailing packages built around the way you drive.</h2>
+          <p class="eyebrow">Pricing</p>
+          <h2 id="services-title">Our Detailing Services</h2>
+          <p>
+            Professional auto detailing designed to clean, restore, and protect your vehicle
+            inside and out.
+          </p>
         </div>
-        <div class="service-grid">
-          <article class="service-card">
-            <h3>Exterior Reset</h3>
-            <p>Foam wash, wheel cleaning, paint decontamination, glass, tires, and spray sealant.</p>
+
+        <div class="package-grid">
+          <article class="package-card">
+            <div class="package-topline">
+              <p class="service-label">Exterior Detail</p>
+              <p class="price">Starting at $70</p>
+            </div>
+            <p>
+              A thorough hand wash designed to safely clean and enhance your vehicle's exterior
+              appearance.
+            </p>
+            <h3>Includes</h3>
+            <ul class="service-list">
+              <li>Pre-rinse to remove loose dirt and debris</li>
+              <li>High-pressure foam bath for deep surface cleaning</li>
+              <li>Full hand wash using microfiber mitts with a scratch-safe method</li>
+              <li>Wheels, rims, and tires deep cleaned</li>
+              <li>Tire sidewalls scrubbed and cleaned</li>
+              <li>Door jambs wiped down</li>
+              <li>Exterior hand dried using premium microfiber towels</li>
+            </ul>
+            <p class="service-note">
+              Perfect for routine maintenance and keeping your vehicle looking fresh.
+            </p>
           </article>
-          <article class="service-card">
-            <h3>Interior Refresh</h3>
-            <p>Vacuum, steam wipe-down, plastics, cup holders, door jambs, glass, and odor attention.</p>
-          </article>
-          <article class="service-card">
-            <h3>Full Detail</h3>
-            <p>A complete inside-and-out service for vehicles that need the full Jazz Detailing treatment.</p>
+
+          <article class="package-card package-card-featured">
+            <div class="package-topline">
+              <p class="service-label">Full Detail</p>
+              <p class="price">Starting at $180</p>
+            </div>
+            <p>
+              A complete interior and exterior detailing service designed to restore cleanliness,
+              comfort, and overall appearance.
+            </p>
+            <div class="included-columns">
+              <div>
+                <h3>Exterior Includes</h3>
+                <ul class="service-list">
+                  <li>Full hand wash and foam treatment</li>
+                  <li>Wheels, rims, and tires deep cleaned</li>
+                  <li>Door jambs cleaned and wiped</li>
+                  <li>Hand dried for a spotless finish</li>
+                </ul>
+              </div>
+              <div>
+                <h3>Interior Includes</h3>
+                <ul class="service-list">
+                  <li>Full interior vacuum including seats, carpets, trunk, and under seats</li>
+                  <li>Cloth seats shampooed or leather cleaned and conditioned</li>
+                  <li>Floor mats deep cleaned, scrubbed, restored, vacuumed, or shampooed as needed</li>
+                  <li>Dashboard, center console, and panels cleaned and detailed</li>
+                  <li>Cup holders, vents, and tight crevices cleaned</li>
+                  <li>Interior glass cleaned streak-free</li>
+                </ul>
+              </div>
+            </div>
+            <p class="service-note">
+              Ideal for bringing your vehicle back to a clean, like-new condition.
+            </p>
           </article>
         </div>
+
+        <p class="pricing-note">
+          Final pricing may vary based on vehicle size, condition, and level of service required.
+        </p>
       </section>
 
-      <section class="split-section" id="work" aria-labelledby="work-title">
-        <div>
-          <p class="eyebrow">The finish</p>
-          <h2 id="work-title">Sharp, clean, and ready for the road.</h2>
-          <p>
-            Whether it is a daily driver, work vehicle, weekend car, or family SUV, every detail gets a
-            careful process and a clean handoff.
-          </p>
-          <ul class="check-list">
-            <li>Paint-safe wash methods</li>
-            <li>Interior cracks and touchpoints cleaned</li>
-            <li>Wheels, tires, glass, and trim finished</li>
-          </ul>
+      <section class="section addons-section" id="addons" aria-labelledby="addons-title">
+        <div class="section-heading section-heading-compact">
+          <p class="eyebrow">Add-on services</p>
+          <h2 id="addons-title">Enhancements & Add-Ons</h2>
         </div>
-        <img
-          class="feature-image"
-          src="https://images.unsplash.com/photo-1605164599901-9e90f8f8f605?auto=format&fit=crop&w=1100&q=80"
-          alt="Detailing products beside a clean vehicle"
-        >
+
+        <div class="addon-grid">
+          <article class="addon-card addon-card-wide">
+            <div>
+              <h3>Engine Bay Detail</h3>
+              <p>Careful and controlled engine cleaning to restore a clean, well-maintained appearance.</p>
+            </div>
+            <p class="addon-price">$80</p>
+            <ul class="service-list">
+              <li>Safe degreasing of engine components</li>
+              <li>Light agitation to break down buildup</li>
+              <li>Controlled rinse with sensitive areas protected</li>
+              <li>Plastic and rubber dressing applied for a clean finish</li>
+            </ul>
+          </article>
+
+          <article class="addon-card addon-card-wide">
+            <div>
+              <h3>Pet Hair Removal</h3>
+              <p>Specialized removal of embedded pet hair from interior surfaces.</p>
+            </div>
+            <p class="addon-price">$60</p>
+            <ul class="service-list">
+              <li>Deep extraction from seats and carpets</li>
+              <li>Brush and vacuum combination method</li>
+              <li>Attention to hard-to-reach areas</li>
+            </ul>
+          </article>
+
+          <article class="addon-card">
+            <h3>Spray Wax / Paint Sealant</h3>
+            <p>Adds gloss and short-term protection to your vehicle's paint.</p>
+            <p class="addon-price">$25</p>
+          </article>
+
+          <article class="addon-card">
+            <h3>Tire Dressing</h3>
+            <p>Restores a deep black, clean finish to tires.</p>
+            <p class="addon-price">$15</p>
+          </article>
+
+          <article class="addon-card">
+            <h3>Interior UV Protection</h3>
+            <p>Protects interior surfaces from fading, cracking, and sun damage.</p>
+            <p class="addon-price">$20</p>
+          </article>
+
+          <article class="addon-card">
+            <h3>Odor Neutralization</h3>
+            <p>Eliminates odors instead of masking them.</p>
+            <p class="addon-price">$30</p>
+          </article>
+
+          <article class="addon-card">
+            <h3>Stain Extraction</h3>
+            <p>Deep cleaning for spills, stains, and heavily soiled areas.</p>
+            <p class="addon-price">Starting at $40</p>
+          </article>
+        </div>
       </section>
 
       <section class="booking" id="booking" aria-labelledby="booking-title">
         <div>
-          <p class="eyebrow">Book Jazz Detailing</p>
+          <p class="eyebrow">Book Jazz's Detailing</p>
           <h2 id="booking-title">Ready for a cleaner ride?</h2>
           <p>
             Send a quick message with your vehicle, location, and the condition it is in. We will help
@@ -112,16 +193,17 @@
           </p>
         </div>
         <div class="contact-panel" aria-label="Contact options">
-          <a class="contact-link" href="tel:+10000000000">Call or text: (000) 000-0000</a>
-          <a class="contact-link" href="mailto:hello@jazzdetailing.com">hello@jazzdetailing.com</a>
-          <a class="button button-primary" href="mailto:hello@jazzdetailing.com?subject=Detailing%20appointment">Request appointment</a>
+          <img class="contact-logo" src="assets/logo-badge.png" alt="Jazz's Detailing logo">
+          <a class="contact-link" href="tel:+19297240454">Call: (929) 724-0454</a>
+          <a class="contact-link" href="sms:+19297240454">Text for an appointment</a>
+          <p class="service-area">Serving Staten Island, NY</p>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Jazz Detailing</p>
-      <p>Premium mobile auto detailing.</p>
+      <p>Jazz's Detailing</p>
+      <p>Cleaner. Shinier. Protected.</p>
     </footer>
   </body>
 </html>
