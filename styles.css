@@ -102,14 +102,16 @@ h3 {
   width: min(300px, 34vw);
   min-width: 0;
   border: 1px solid rgba(255, 245, 230, 0.52);
-  border-radius: 8px;
+  border-radius: 10px;
   background: rgba(0, 0, 0, 0.78);
   box-shadow: 0 14px 44px rgba(0, 0, 0, 0.26);
+  overflow: hidden;
 }
 
 .brand img {
   width: 100%;
   height: auto;
+  border-radius: inherit;
 }
 
 .nav-links {
@@ -445,10 +447,15 @@ h3 {
   border-bottom: 1px solid var(--line);
   color: var(--cream);
   font-weight: 900;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 245, 230, 0.54);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
 }
 
 .contact-link:hover {
   color: var(--gold);
+  text-decoration-color: var(--gold);
 }
 
 .service-area {
